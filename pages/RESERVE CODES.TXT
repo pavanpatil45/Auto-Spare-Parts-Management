@@ -1,0 +1,16 @@
+
+<!-- THIS PART IS FROM THE SAMPLE OF CART NA CODE -->
+                <div class="col-sm-4 col-md-4" >
+                    <form method="post" action="pos.php?action=add&id=<?php echo $product['id']; ?>">
+                        <div class="products">
+                            <h4 class="text-info"><?php echo $product['name']; ?></h4>
+                            <h4>$ <?php echo $product['price']; ?></h4>
+                            <input type="text" name="quantity" class="form-control" value="1" />
+                            <input type="hidden" name="name" value="<?php echo $product['name']; ?>" />
+                            <input type="hidden" name="price" value="<?php echo $product['price']; ?>" />
+                            <input type="submit" name="addpos" style="margin-top:5px;" class="btn btn-info"
+                                   value="Add to Cart" />
+                        </div>
+                    </form>
+                </div>
+<!-- END OF THIS PART IS FROM THE SAMPLE OF CART NA CODE -->
