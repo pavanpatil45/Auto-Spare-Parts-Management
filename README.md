@@ -2,7 +2,7 @@
 This is my TE IT mini project for the subject DBMS using MySQL and PHP 3.
 This is a web based Application to manage sales of Auto spare parts.
 
-## Installation
+### Installation
 * Install XAMPP
 * Clone the repository and move to the C:\xampp\htdocs
 * open PHPMyAdmin create new DB (spare_parts).
