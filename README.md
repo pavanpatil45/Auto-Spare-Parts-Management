@@ -1,5 +1,6 @@
 # Auto-Spare-Parts-Management
-This my TE IT mini project for the subject DBMS. MySQL and PHP 3.
+This my TE IT mini project for the subject DBMS using MySQL and PHP 3.
+
 This is a web based Application to manage sales of Auto spare parts.
 
 ![Screenshot (135)](https://user-images.githubusercontent.com/47142604/99874514-a2f40f00-2c0e-11eb-8528-f8fa9a266723.png)
