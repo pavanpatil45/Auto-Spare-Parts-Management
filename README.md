@@ -2,12 +2,12 @@
 This is my TE IT mini project for the subject DBMS using MySQL and PHP 3.
 This is a web based Application to manage sales of Auto spare parts.
 
-# Installation
-* Clone the repository and move the root folder to the deployment folder of your browser. (for Apache, this is htdocs)
-Create a blank DB called shop_inventory in MySQL
-Create a new user called inventoryUser with a password as password and give full permission to that user.
-Load the sql dump to the newly created shop_inventory database
-Change the root url of your website in constants.php file
+## Installation
+* Install XAMPP
+* Clone the repository and move to the C:\xampp\htdocs
+* open PHPMyAdmin create new DB (spare_parts).
+* import spare_parts.sql from this repo to newly created DB.
+* Now you're all done! just open in browser - http://localhost/spare_parts_management/
 
 ![Screenshot (135)](https://user-images.githubusercontent.com/47142604/99874514-a2f40f00-2c0e-11eb-8528-f8fa9a266723.png)
 ![Screenshot (136)](https://user-images.githubusercontent.com/47142604/99874516-a5566900-2c0e-11eb-9493-2d97a6caa5d3.png)
