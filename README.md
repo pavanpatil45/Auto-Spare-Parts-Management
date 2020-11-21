@@ -21,3 +21,4 @@ This is a web based Application to manage sales of Auto spare parts.
 ![Screenshot (151)](https://user-images.githubusercontent.com/47142604/99874543-cf0f9000-2c0e-11eb-86e1-b88d21744a32.png)
 ![Screenshot (152)](https://user-images.githubusercontent.com/47142604/99874546-d59e0780-2c0e-11eb-97aa-741cad2b4679.png)
 ![Screenshot (153)](https://user-images.githubusercontent.com/47142604/99874549-d8006180-2c0e-11eb-97e4-b74c5748ef66.png)
+
