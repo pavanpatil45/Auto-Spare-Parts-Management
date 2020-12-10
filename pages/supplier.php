@@ -54,6 +54,9 @@ include'../includes/sidebar.php';
                                   <a type="button" class="btn btn-warning bg-gradient-warning btn-block" href="sup_edit.php?action=edit & id='.$row['SUPPLIER_ID']. '">
                                     </i> Edit
                                   </a>
+								  <a type="button" class="btn btn-warning bg-gradient-warning btn-block" href="sup_del.php?action=del & id='.$row['SUPPLIER_ID']. '">
+                                   </i> Delete
+									</a>
                                  
                             
                             </div>

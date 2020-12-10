@@ -64,6 +64,9 @@ if ($Aa=='User'){
                                   <a type="button" class="btn btn-warning bg-gradient-warning btn-block" href="emp_edit.php?action=edit & id='.$row['EMPLOYEE_ID']. '">
                                     </i> Edit
                                   </a>
+								  <a type="button" class="btn btn-warning bg-gradient-warning btn-block" href="emp_del.php?action=del & id='.$row['EMPLOYEE_ID']. '">
+                                   </i> Delete
+									</a>
                                 
                             
                             </div>

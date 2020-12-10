@@ -1,16 +1,16 @@
+
 <?php
 include'../includes/connection.php';
+include'../includes/sidebar.php';
+?><?php 
 
-	if (!isset($_GET['do']) || $_GET['do'] != 1) {
-						
-    	switch ($_GET['type']) {
-    		case 'product':
-    			$query = 'DELETE FROM product WHERE PRODUCT_ID = ' . $_GET['id'];
+
+    			$query = 'DELETE FROM Product WHERE PRODUCT_ID = ' . $_GET['id'];
     			$result = mysqli_query($db, $query) or die(mysqli_error($db));				
             ?>
-    			<script type="text/javascript">alert("Product Successfully Deleted.");window.location = "product.php";</script>					
+    			<script type="text/javascript">alert("Spare Part Successfully Deleted.");window.location = "spare_parts.php";</script>					
             <?php
     			//break;
-            }
-	}
+            
+	
 ?>

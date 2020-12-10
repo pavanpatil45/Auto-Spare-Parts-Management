@@ -16,5 +16,5 @@ include('../includes/connection.php');
 ?>	
 	<script type="text/javascript">
 			alert("You've Update Product Successfully.");
-			window.location = "product.php";
+			window.location = "spare_parts.php";
 		</script>

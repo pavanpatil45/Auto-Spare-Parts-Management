@@ -76,6 +76,10 @@ $sup .= "</select>";
                                   <a type="button" class="btn btn-warning bg-gradient-warning btn-block" href="pro_edit.php?action=edit & id='.$row['PRODUCT_ID']. '">
                                     </i> Edit
                                   </a>
+								  
+								  <a type="button" class="btn btn-warning bg-gradient-warning btn-block" href="pro_del.php?action=del & id='.$row['PRODUCT_ID']. '">
+                                   </i> Delete
+									</a>
                              
                             </div>
                           </div> </td>';
