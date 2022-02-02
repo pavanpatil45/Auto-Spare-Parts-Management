@@ -42,7 +42,7 @@ if ($Aa=='User'){
                               VALUES (Null,'$prov','$cit')");
 					mysqli_query($db,"INSERT INTO employee
                               (EMPLOYEE_ID, FIRST_NAME, LAST_NAME,GENDER, EMAIL, PHONE_NUMBER, JOB_ID, LOCATION_ID)
-                              VALUES (Null,'{$fname}','{$lname}','{$gen}','{$email}','{$phone}','{$jobb}',(SELECT MAX(LOCATION_ID) FROM location))")or die ('Error in updating Database');;
+                              VALUES (Null,'{$fname}','{$lname}','{$gen}','{$email}','{$phone}','{$jobb}',(SELECT LOCATION_ID FROM location))")or die ('Error in updating Database');
                 break;
               }
             ?>
