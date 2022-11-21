@@ -120,7 +120,7 @@ $opt .= "</select>";
                 $f=$row['EMAIL'];
                 $g=$row['PHONE_NUMBER'];
                 $h=$row['JOB_TITLE'];
-                
+                $i=$row['HIRED_DATE'];
                 $j=$row['PROVINCE'];
                 $k=$row['CITY'];
                 $l=$row['TYPE'];
